@@ -1,0 +1,22 @@
+#!/bin/bash -l
+
+#List various flags needed for this job
+
+#$-N job_matmul
+#$-l h_rt=12:00:00
+#$-j y
+#$-pe omp 1
+#$-l gpus=1
+#$-l gpu_c=3.5
+
+
+#Load modules
+module load python/2.7.13
+module load cuda/8.0
+module load cudnn/5.1
+module load tensorflow/r1.0_python-2.7.13
+
+#Run python script
+python matmul.py
+
+

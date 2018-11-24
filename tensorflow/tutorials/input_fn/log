@@ -1,0 +1,172 @@
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcufft.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcublas.so.8.0 locally
+WARNING:tensorflow:Using temporary folder as model directory: /scratch/7028838.1.katia/tmpNXywJi
+INFO:tensorflow:Using default config.
+INFO:tensorflow:Using config: {'_save_checkpoints_secs': 600, '_num_ps_replicas': 0, '_keep_checkpoint_max': 5, '_tf_random_seed': None, '_task_type': None, '_environment': 'local', '_is_chief': True, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x2b0d144a5350>, '_tf_config': gpu_options {
+  per_process_gpu_memory_fraction: 1
+}
+, '_task_id': 0, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_evaluation_master': '', '_keep_checkpoint_every_n_hours': 10000, '_master': ''}
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:From /share/pkg/tensorflow/r1.0/install/site-packages/tensorflow/contrib/learn/python/learn/estimators/head.py:1362: scalar_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.scalar. Note that tf.summary.scalar uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in. Also, passing a tensor or list of tags to a scalar summary op is no longer supported.
+INFO:tensorflow:Create CheckpointSaverHook.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: Tesla K40m
+major: 3 minor: 5 memoryClockRate (GHz) 0.745
+pciBusID 0000:82:00.0
+Total memory: 11.20GiB
+Free memory: 11.12GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K40m, pci bus id: 0000:82:00.0)
+E tensorflow/stream_executor/cuda/cuda_driver.cc:1002] failed to allocate 11.20G (12029132800 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+INFO:tensorflow:Saving checkpoints for 1 into /scratch/7028838.1.katia/tmpNXywJi/model.ckpt.
+INFO:tensorflow:loss = 1193.36, step = 1
+INFO:tensorflow:global_step/sec: 788.11
+INFO:tensorflow:loss = 95.9912, step = 101
+INFO:tensorflow:global_step/sec: 829.091
+INFO:tensorflow:loss = 83.4583, step = 201
+INFO:tensorflow:global_step/sec: 848.903
+INFO:tensorflow:loss = 77.1066, step = 301
+INFO:tensorflow:global_step/sec: 859.587
+INFO:tensorflow:loss = 72.7606, step = 401
+INFO:tensorflow:global_step/sec: 889.949
+INFO:tensorflow:loss = 69.5943, step = 501
+INFO:tensorflow:global_step/sec: 863.111
+INFO:tensorflow:loss = 67.1711, step = 601
+INFO:tensorflow:global_step/sec: 851.345
+INFO:tensorflow:loss = 65.6026, step = 701
+INFO:tensorflow:global_step/sec: 800.641
+INFO:tensorflow:loss = 63.476, step = 801
+INFO:tensorflow:global_step/sec: 806.626
+INFO:tensorflow:loss = 61.5033, step = 901
+INFO:tensorflow:global_step/sec: 809.533
+INFO:tensorflow:loss = 59.1185, step = 1001
+INFO:tensorflow:global_step/sec: 809.33
+INFO:tensorflow:loss = 58.2608, step = 1101
+INFO:tensorflow:global_step/sec: 846.045
+INFO:tensorflow:loss = 55.5033, step = 1201
+INFO:tensorflow:global_step/sec: 876.725
+INFO:tensorflow:loss = 53.4962, step = 1301
+INFO:tensorflow:global_step/sec: 855.233
+INFO:tensorflow:loss = 51.5767, step = 1401
+INFO:tensorflow:global_step/sec: 848.328
+INFO:tensorflow:loss = 49.7253, step = 1501
+INFO:tensorflow:global_step/sec: 889.245
+INFO:tensorflow:loss = 47.9083, step = 1601
+INFO:tensorflow:global_step/sec: 876.923
+INFO:tensorflow:loss = 46.957, step = 1701
+INFO:tensorflow:global_step/sec: 846.647
+INFO:tensorflow:loss = 44.0453, step = 1801
+INFO:tensorflow:global_step/sec: 852.173
+INFO:tensorflow:loss = 41.9272, step = 1901
+INFO:tensorflow:global_step/sec: 833.284
+INFO:tensorflow:loss = 42.1751, step = 2001
+INFO:tensorflow:global_step/sec: 843.178
+INFO:tensorflow:loss = 41.3162, step = 2101
+INFO:tensorflow:global_step/sec: 857.002
+INFO:tensorflow:loss = 38.0172, step = 2201
+INFO:tensorflow:global_step/sec: 849.466
+INFO:tensorflow:loss = 37.7094, step = 2301
+INFO:tensorflow:global_step/sec: 820.917
+INFO:tensorflow:loss = 36.5165, step = 2401
+INFO:tensorflow:global_step/sec: 834.606
+INFO:tensorflow:loss = 35.9464, step = 2501
+INFO:tensorflow:global_step/sec: 865.44
+INFO:tensorflow:loss = 34.8412, step = 2601
+INFO:tensorflow:global_step/sec: 825.608
+INFO:tensorflow:loss = 34.2368, step = 2701
+INFO:tensorflow:global_step/sec: 826.835
+INFO:tensorflow:loss = 33.3552, step = 2801
+INFO:tensorflow:global_step/sec: 807.403
+INFO:tensorflow:loss = 32.8485, step = 2901
+INFO:tensorflow:global_step/sec: 866.341
+INFO:tensorflow:loss = 32.5144, step = 3001
+INFO:tensorflow:global_step/sec: 861.549
+INFO:tensorflow:loss = 31.9415, step = 3101
+INFO:tensorflow:global_step/sec: 824.137
+INFO:tensorflow:loss = 31.4751, step = 3201
+INFO:tensorflow:global_step/sec: 818.297
+INFO:tensorflow:loss = 31.1211, step = 3301
+INFO:tensorflow:global_step/sec: 865.756
+INFO:tensorflow:loss = 30.7965, step = 3401
+INFO:tensorflow:global_step/sec: 817.474
+INFO:tensorflow:loss = 30.508, step = 3501
+INFO:tensorflow:global_step/sec: 834.244
+INFO:tensorflow:loss = 30.8762, step = 3601
+INFO:tensorflow:global_step/sec: 809.539
+INFO:tensorflow:loss = 31.6804, step = 3701
+INFO:tensorflow:global_step/sec: 819.969
+INFO:tensorflow:loss = 29.8366, step = 3801
+INFO:tensorflow:global_step/sec: 841.856
+INFO:tensorflow:loss = 29.6745, step = 3901
+INFO:tensorflow:global_step/sec: 845.495
+INFO:tensorflow:loss = 29.5335, step = 4001
+INFO:tensorflow:global_step/sec: 801.566
+INFO:tensorflow:loss = 29.3683, step = 4101
+INFO:tensorflow:global_step/sec: 840.469
+INFO:tensorflow:loss = 29.2589, step = 4201
+INFO:tensorflow:global_step/sec: 825.252
+INFO:tensorflow:loss = 29.1482, step = 4301
+INFO:tensorflow:global_step/sec: 882.395
+INFO:tensorflow:loss = 29.3895, step = 4401
+INFO:tensorflow:global_step/sec: 853.111
+INFO:tensorflow:loss = 29.3693, step = 4501
+INFO:tensorflow:global_step/sec: 874.998
+INFO:tensorflow:loss = 29.1144, step = 4601
+INFO:tensorflow:global_step/sec: 892.515
+INFO:tensorflow:loss = 29.0182, step = 4701
+INFO:tensorflow:global_step/sec: 901.119
+INFO:tensorflow:loss = 28.9121, step = 4801
+INFO:tensorflow:global_step/sec: 886.871
+INFO:tensorflow:loss = 28.9349, step = 4901
+INFO:tensorflow:Saving checkpoints for 5000 into /scratch/7028838.1.katia/tmpNXywJi/model.ckpt.
+INFO:tensorflow:Loss for final step: 28.9236.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:From /share/pkg/tensorflow/r1.0/install/site-packages/tensorflow/contrib/learn/python/learn/estimators/head.py:1362: scalar_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.scalar. Note that tf.summary.scalar uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in. Also, passing a tensor or list of tags to a scalar summary op is no longer supported.
+INFO:tensorflow:Starting evaluation at 2017-02-28-04:47:51
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K40m, pci bus id: 0000:82:00.0)
+INFO:tensorflow:Evaluation [1/1]
+INFO:tensorflow:Finished evaluation at 2017-02-28-04:47:52
+INFO:tensorflow:Saving dict for global step 5000: global_step = 5000, loss = 14.5673
+WARNING:tensorflow:Skipping summary for global_step, must be a float or np.float32.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K40m, pci bus id: 0000:82:00.0)
+Loss: 14.567342
+Predictions: [33.330124, 18.870102, 23.576033, 34.996872, 14.309932, 20.050987]

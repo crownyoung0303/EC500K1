@@ -1,0 +1,14 @@
+/var/spool/sge/scc-q13/job_scripts/7555774: line 20: A very simple MNIST classifier.
+
+See extensive documentation at
+http://tensorflow.org/tutorials/mnist/beginners/index.md
+: No such file or directory
+/var/spool/sge/scc-q13/job_scripts/7555774: line 21: from: command not found
+/var/spool/sge/scc-q13/job_scripts/7555774: line 22: from: command not found
+/var/spool/sge/scc-q13/job_scripts/7555774: line 23: from: command not found
+import: unable to open X server `' @ error/import.c/ImportImageCommand/368.
+import: unable to open X server `' @ error/import.c/ImportImageCommand/368.
+/var/spool/sge/scc-q13/job_scripts/7555774: line 28: from: command not found
+import: unable to open X server `' @ error/import.c/ImportImageCommand/368.
+/var/spool/sge/scc-q13/job_scripts/7555774: line 31: syntax error near unexpected token `('
+/var/spool/sge/scc-q13/job_scripts/7555774: line 31: `sess = tf.InteractiveSession()'

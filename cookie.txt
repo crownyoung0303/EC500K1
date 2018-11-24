@@ -1,0 +1,9 @@
+# Cookies for domains related to grand-challenge.org.
+# This content may be pasted into a cookies.txt file and used by wget
+# Example:  wget -x --load-cookies cookies.txt https://luna16.grand-challenge.org/data/
+#
+grand-challenge.org	FALSE	/	FALSE	1522009190.717144	csrftoken	8u6EUevNQUPRUWL4ifL0zvRCzc6RE10a
+luna16.grand-challenge.org	FALSE	/	FALSE	1523306041.903975	csrftoken	50gxeeFDncdo8zokrdpzBF3TUP3T97EG
+.grand-challenge.org	TRUE	/	FALSE	1491856502	_gat	1
+.grand-challenge.org	TRUE	/	FALSE	1491860046.344724	sessionid	h9tbt9u5wg1ts74s9xmbbzynwlg0f8mj
+.grand-challenge.org	TRUE	/	FALSE	1554928459	_ga	GA1.2.1417495340.1489670884

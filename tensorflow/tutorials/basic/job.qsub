@@ -1,0 +1,27 @@
+#!/bin/bash -l
+
+
+# Specify the project name
+#$-P dlearn
+
+# Specify the time limit
+#$-l h_rt=12:00:00
+
+# Job Name
+#$-N dot_product
+
+# Send email at the end of the job
+#$-m e
+
+# Join error and output streams
+#$-j y
+
+# Specify the number of cores
+#$-pe omp 1
+
+
+#Load modules:
+module load python/2.7.13
+
+#Run the program
+python dot_product.py
