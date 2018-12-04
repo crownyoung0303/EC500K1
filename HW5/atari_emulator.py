@@ -1,3 +1,4 @@
+import imageio
 import numpy as np
 from ale_python_interface import ALEInterface
 from scipy.misc import imresize
